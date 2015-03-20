@@ -1,0 +1,32 @@
+{
+  "name": "instapi",
+  "version": "1.0.0",
+  "description": "Instagram API Client for node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "make clean && make",
+    "start": "node bin/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Urucas/instapi.git"
+  },
+  "keywords": [
+    "instagram",
+    "api",
+    "node",
+    "insta",
+    "rest"
+  ],
+  "author": "Urucas <hello@uruca.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Urucas/instapi/issues"
+  },
+  "homepage": "https://github.com/Urucas/instapi",
+  "dependencies": {
+    "babel": "^4.5.5",
+    "request": "^2.53.0"
+  }
+}
