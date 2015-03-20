@@ -27,3 +27,5 @@ node
 
 # Users Environment Variables
 .lock-wscript
+
+bin/config.js
